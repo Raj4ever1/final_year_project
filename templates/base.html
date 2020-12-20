@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Final Year Project{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    {% block link %}{% endblock %}
+
+</head>
+<body>
+<div class="mainbody">
+    <div class="mainbody_header">
+        <img src="{% static 'images/logo.png' %}">
+        <h2>Final Year Project</h2><br>
+        <h4>Jain University Deemed-To-Be-University</h4>
+        <ul>
+            {% if user.is_authenticated %}
+            <li>Welcome, {{user.first_name}}</li>
+            <li><a href="{% url 'home' %}">Home</a> </li>
+            <li>Profile</li>
+            <li>Crops</li>
+            <li>Sensors</li>
+            <li>Land Details</li>
+            <li><a href="/">Contact</a> </li>
+            <li><a href="{% url 'logout' %}">Logout</a> </li>
+            {% else %}
+            <li><a href="{% url 'home' %}">Home</a> </li>
+            <li><a href="{% url 'login' %}">Login</a> </li>
+            <li><a href="{% url 'signup' %}">Signup</a> </li>
+            {% endif %}
+        </ul>
+
+    </div>
+    <div class="mainbody_body">
+        {% block body_content %}404 Error{% endblock %}
+    </div>
+</div>
+
+</body>
+</html>

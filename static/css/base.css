@@ -39,3 +39,7 @@
 .mainbody_body{
     background-image: url('../images/body_bg_2.jpg');
 }
+.mainbody_body ul li a{
+    text-decoration: none;
+    color: black;
+}

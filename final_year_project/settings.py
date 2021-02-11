@@ -32,6 +32,8 @@ ALLOWED_HOSTS = ['192.168.1.5','127.0.0.1']
 
 INSTALLED_APPS = [
     'register',
+    'contact',
+    'detail',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -131,3 +133,6 @@ EMAIL_PORT=587
 DEFAULT_FROM_EMAIL=EMAIL_HOST_USER
 EMAIL_USE_TLS=True
 EMAIL_HOST_PASSWORD='lwucnxjqaqctjjub'
+
+MEDIA_URL='/media/'
+MEDIA_ROOT='media'

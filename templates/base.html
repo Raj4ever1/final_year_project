@@ -3,26 +3,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{% block title %}Final Year Project{% endblock %}</title>
-    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <title>{% block title %}
+        {% if user.is_authenticated %}
+        {{user.first_name}}
+        {% else %}
+        Digital Farming
+        {% endif %}
+        {% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}?{% now "U" %}">
     {% block link %}{% endblock %}
 
 </head>
 <body>
 <div class="mainbody">
     <div class="mainbody_header">
-        <img src="{% static 'images/logo.png' %}">
-        <h2>Final Year Project</h2><br>
-        <h4>Jain Deemed-To-Be-University</h4>
+        <h2>Digital Farming</h2><br>
         <ul>
             {% if user.is_authenticated %}
-            <li>Welcome, {{user.first_name}}</li>
+            <li style="border: none">Welcome, {{user.first_name}}</li>
             <li><a href="{% url 'home' %}">Home</a> </li>
             <li>Profile</li>
-            <li>Crops</li>
-            <li>Sensors</li>
-            <li>Land Details</li>
-            <li><a href="/">Contact</a> </li>
+                <li><a href="{% url 'detail' %}">Details</a></li>
+            <li><a href="{% url 'contacts' %}">Contact</a> </li>
             <li><a href="{% url 'logout' %}">Logout</a> </li>
             {% else %}
             <li><a href="{% url 'home' %}">Home</a> </li>
@@ -33,7 +35,9 @@
 
     </div>
     <div class="mainbody_body">
-        {% block body_content %}404 Error{% endblock %}
+        {% block body_content %}
+            Welcome to our Website.
+        {% endblock %}
     </div>
 </div>
 

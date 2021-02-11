@@ -40,7 +40,7 @@ def signup(request):
             'uidb64':uidb64,'token':token
         })
         url='http://'+domain+link
-        email_body = 'hiii ' +user.username+'! Please verify the account.\n'+url
+        email_body = 'hiii ' +str(user.username).title()+'! Please verify your account.\n'+url
         EmailMessage(
             'Activate Your Account',
             email_body,
@@ -66,7 +66,6 @@ def login(request):
     if request.method == 'POST':
         username = request.POST['username']
         password = request.POST['password']
-
         user = auth.authenticate(username=username, password=password)
         if user:
             auth.login(request, user)

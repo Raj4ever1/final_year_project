@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Detail
+{% endblock %}
+{% block link %}
+<link rel="stylesheet" href="{% static 'css/detail/detail.css' %}?{% now "U" %}">
+{% endblock %}
+{% block body_content %}
+    <div class="content">
+        <div class="content_left">
+            <button id="crop_button" class="crop" >Crop</button>
+            <div  id="crops" class="content_left_crop" style="display: none">
+                {% for i in crops %}
+                    <a href="{{ i.pk }}">{{ i.name }}</a>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="content_right">
+            hello
+        </div>
+    </div>
+    <script>
+    var dropdown = document.getElementsByClassName("crop");
+    var i;
+
+    for (i = 0; i < dropdown.length; i++) {
+      dropdown[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var dropdownContent = this.nextElementSibling;
+        if (dropdownContent.style.display === "block") {
+          dropdownContent.style.display = "none";
+        } else {
+          dropdownContent.style.display = "block";
+        }
+      });
+    }
+    </script>
+{% endblock %}

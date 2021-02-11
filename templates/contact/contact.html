@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Contacts{% endblock %}
+{% block link %}
+<link rel="stylesheet" href="{% static 'css/contact/contacts.css' %}?{% now "U" %}">
+{% endblock %}
+{% block body_content %}
+    <div class="content_body">
+        {% for i in con %}
+            {% if i.category == "Teacher" %}
+                <div class="teacher">
+                    <img src="{{ i.img.url }}" height="200" width="150"><br>
+                    Name= {{ i.name|title }}<br>
+                    Contact No.= {{ i.mobile_no }}<br>
+                    Email Add.= <a href = "mailto: {{ i.email }}">{{ i.email }}</a><br>
+                    Address= {{ i.address|title }}<br>
+                </div>
+            {% endif %}
+        {% endfor %}
+        {% for i in con %}
+            {% if i.category == "Student" %}
+                <div class="student">
+                    <img src="{{ i.img.url }}" height="200" width="150"><br>
+                    Name= {{ i.name|title }}<br>
+                    Contact No.= {{ i.mobile_no }}<br>
+                    Email Add.= <a href = "mailto: {{ i.email }}">{{ i.email }}</a><br>
+                    Address= {{ i.address|title }}
+                </div>
+            {% endif %}
+        {% endfor %}
+
+        <form method="post" action="feedback">
+            {% csrf_token %}
+            <h3>Send us your feedback:</h3>
+            <textarea name="feedback" rows="4" cols="50"></textarea>
+            <br><input type="submit">
+        </form>
+    </div>
+{% endblock %}

@@ -12,7 +12,7 @@
                     <img src="{{ i.img.url }}" height="200" width="150"><br>
                     Name= {{ i.name|title }}<br>
                     Contact No.= {{ i.mobile_no }}<br>
-                    Email Add.= <a href = "mailto: {{ i.email }}">{{ i.email }}</a><br>
+                    Email Add.= <a href = "mailto: {{ i.email }}?subject=Mail from Our Site">{{ i.email }}</a><br>
                     Address= {{ i.address|title }}<br>
                 </div>
             {% endif %}
@@ -23,7 +23,7 @@
                     <img src="{{ i.img.url }}" height="200" width="150"><br>
                     Name= {{ i.name|title }}<br>
                     Contact No.= {{ i.mobile_no }}<br>
-                    Email Add.= <a href = "mailto: {{ i.email }}">{{ i.email }}</a><br>
+                    Email Add.= <a href = "mailto: {{ i.email }}?subject=Mail from Our Site">{{ i.email }}</a><br>
                     Address= {{ i.address|title }}
                 </div>
             {% endif %}

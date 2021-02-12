@@ -4,36 +4,31 @@
 Detail
 {% endblock %}
 {% block link %}
-<link rel="stylesheet" href="{% static 'css/detail/detail.css' %}?{% now "U" %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'css/detail/detail.css' %}?{% now "U" %}">
 {% endblock %}
 {% block body_content %}
     <div class="content">
         <div class="content_left">
-            <button id="crop_button" class="crop" >Crop</button>
+            <button  class="crop" >Crop <i class="fa fa-caret-down"></i></button>
             <div  id="crops" class="content_left_crop" style="display: none">
                 {% for i in crops %}
-                    <a href="{{ i.pk }}">{{ i.name }}</a>
+                    <button onclick="loadDoc({{ i.pk }})">{{ i.name.title }}</button>
+                    <br>
+                {% endfor %}
+            </div><br>
+            <button  class="crop" >Land <i class="fa fa-caret-down"></i></button>
+            <div  id="crops" class="content_left_crop" style="display: none">
+                {% for i in crops %}
+                    <button onclick="loadDoc({{ i.pk }})">{{ i.name.title }}</button>
+                    <br>
                 {% endfor %}
             </div>
         </div>
         <div class="content_right">
             hello
+            <p id="demo"></p>
         </div>
     </div>
-    <script>
-    var dropdown = document.getElementsByClassName("crop");
-    var i;
-
-    for (i = 0; i < dropdown.length; i++) {
-      dropdown[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var dropdownContent = this.nextElementSibling;
-        if (dropdownContent.style.display === "block") {
-          dropdownContent.style.display = "none";
-        } else {
-          dropdownContent.style.display = "block";
-        }
-      });
-    }
-    </script>
+    <script src="{% static 'js/detail/detail.js' %}"></script>
 {% endblock %}

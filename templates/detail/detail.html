@@ -20,7 +20,7 @@ Detail
             <button  class="crop" >Land <i class="fa fa-caret-down"></i></button>
             <div  id="crops" class="content_left_crop" style="display: none">
                 {% for i in crops %}
-                    <button onclick="loadDoc({{ i.pk }})">{{ i.name.title }}</button>
+                    <button onclick="loadDoc('crop/'+{{ i.pk }})">{{ i.name.title }}</button>
                     <br>
                 {% endfor %}
             </div>

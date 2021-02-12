@@ -11,4 +11,5 @@ class crop(models.Model):
     min_temp=models.FloatField(default=0)
     max_temp=models.FloatField(default=100)
     description=models.TextField(max_length=1000)
+    img = models.ImageField(upload_to='crops')
 # Create your models here.

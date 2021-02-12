@@ -15,7 +15,7 @@
 .content_left button {
     width: 100%;
     background-color: black;
-    padding: 2px 5px 6px 16px;
+    padding: 2px 5px 0px 16px;
     text-decoration: none;
     font-size: 15px;
     color: #818181;
@@ -27,12 +27,17 @@
     outline: none;
 }
 
+.content_left button:hover {
+    color: white;
+}
+
 .content_left button i{
-    padding-left: 20px;
+    padding-left: 120px;
 }
 
 .content_left_crop button {
     margin-left: 10px;
     width: 90%;
+
 
 }

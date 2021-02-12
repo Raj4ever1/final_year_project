@@ -1,0 +1,5 @@
+.content{
+    display:grid;
+    grid-template-columns: 15% 85%;
+    text-align:initial;
+}

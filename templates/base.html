@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <title>{% block title %}
         {% if user.is_authenticated %}
-        {{user.first_name}}
+            {{ user.first_name }}
         {% else %}
-        Digital Farming
+            Digital Farming
         {% endif %}
-        {% endblock %}</title>
+    {% endblock %}</title>
     <link rel="stylesheet" href="{% static 'css/base.css' %}?{% now "U" %}">
     {% block link %}{% endblock %}
 
@@ -20,23 +20,34 @@
         <h2>Digital Farming</h2><br>
         <ul>
             {% if user.is_authenticated %}
-            <li style="border: none">Welcome, {{user.first_name}}</li>
-            <li><a href="{% url 'home' %}">Home</a> </li>
-            <li>Profile</li>
+                <li style="border: none">Welcome, {{ user.first_name }}</li>
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li>Profile</li>
                 <li><a href="{% url 'detail' %}">Details</a></li>
-            <li><a href="{% url 'contacts' %}">Contact</a> </li>
-            <li><a href="{% url 'logout' %}">Logout</a> </li>
+                <li><a href="{% url 'contacts' %}">Contact</a></li>
+                <li><a href="{% url 'logout' %}">Logout</a></li>
             {% else %}
-            <li><a href="{% url 'home' %}">Home</a> </li>
-            <li><a href="{% url 'login' %}">Login</a> </li>
-            <li><a href="{% url 'signup' %}">Signup</a> </li>
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'detail' %}">Details</a></li>
+                <li><a href="{% url 'login' %}">Login</a></li>
+                <li><a href="{% url 'signup' %}">Signup</a></li>
             {% endif %}
         </ul>
 
     </div>
     <div class="mainbody_body">
         {% block body_content %}
-            Welcome to our Website.
+            <h1></h1>
+            Precision agriculture is being followed in few countries; the agriculture enterprise in India nonetheless
+            ought to technologies with the use of technology for higher manufacturing, distribution and charge control.
+            During this assignment of precision agriculture farmers were given to be enrolled with via a Mobile App. The
+            module will shop the info of the farmers, periodic soil houses of lands, insecticides required for the real
+            crops, quantity of pesticide vital. Big information evaluation at the statistics is great crop sequences
+            evaluation, general manufacturing requirement of pesticide and consequently the herbicide for the crop. Part
+            of the version is used for the quantity of pesticide spraying that is vital for the unique crop may be
+            finished this procedure is automation with the assist of a microcontroller and the information is obtained
+            from all of the sensors and the motor and the pump and receives computerized with the time restriction set
+            through the user. After the procedure is finished the farmer may be notified.
         {% endblock %}
     </div>
 </div>

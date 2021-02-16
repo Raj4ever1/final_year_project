@@ -26,6 +26,6 @@ function loadDoc(link) {
      document.getElementById("demo").innerHTML = this.responseText;
     }
   };
-  xhttp.open("GET",link , true);
+  xhttp.open("POST",link , true);
   xhttp.send();
 }

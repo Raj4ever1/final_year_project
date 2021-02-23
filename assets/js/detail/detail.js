@@ -1,6 +1,6 @@
+
 var dropdown = document.getElementsByClassName("crop");
 var i;
-
 for (i = 0; i < dropdown.length; i++) {
   dropdown[i].addEventListener("click", function() {
     this.classList.toggle("active");

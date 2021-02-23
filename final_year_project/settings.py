@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 import os
+from django.http import HttpRequest
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -25,7 +26,7 @@ SECRET_KEY = '6=@!=_o@05iis7ou#p1#=&4^3ltk(u(*)(40ymu35*$err1m_q'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','192.168.88.50']
+ALLOWED_HOSTS = ['127.0.0.1','192.168.0.170','localhost']
 
 
 # Application definition
@@ -34,6 +35,7 @@ INSTALLED_APPS = [
     'register',
     'contact',
     'detail',
+    'userprofile',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

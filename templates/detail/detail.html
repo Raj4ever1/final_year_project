@@ -28,11 +28,3 @@ Detail
     </div>
     <script src="{% static 'js/detail/detail.js' %}"></script>
 {% endblock %}
-
-<button  class="crop" >Land <i class="fa fa-caret-down"></i></button>
-            <div  id="crops" class="content_left_crop crop" style="display: none">
-                {% for i in crops %}
-                    <button onclick="loadDoc('crop/'+{{ i.pk }})">{{ i.name.title }}</button>
-                    <br>
-                {% endfor %}
-            </div>

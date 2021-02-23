@@ -22,7 +22,7 @@
             {% if user.is_authenticated %}
                 <li style="border: none">Welcome, {{ user.first_name }}</li>
                 <li><a href="{% url 'home' %}">Home</a></li>
-                <li>Profile</li>
+                <li><a href="{% url 'userprofile' %}">Profile</a></li>
                 <li><a href="{% url 'detail' %}">Details</a></li>
                 <li><a href="{% url 'contacts' %}">Contact</a></li>
                 <li><a href="{% url 'logout' %}">Logout</a></li>
@@ -37,17 +37,50 @@
     </div>
     <div class="mainbody_body">
         {% block body_content %}
-            <h1></h1>
-            Precision agriculture is being followed in few countries; the agriculture enterprise in India nonetheless
-            ought to technologies with the use of technology for higher manufacturing, distribution and charge control.
-            During this assignment of precision agriculture farmers were given to be enrolled with via a Mobile App. The
-            module will shop the info of the farmers, periodic soil houses of lands, insecticides required for the real
-            crops, quantity of pesticide vital. Big information evaluation at the statistics is great crop sequences
-            evaluation, general manufacturing requirement of pesticide and consequently the herbicide for the crop. Part
-            of the version is used for the quantity of pesticide spraying that is vital for the unique crop may be
-            finished this procedure is automation with the assist of a microcontroller and the information is obtained
-            from all of the sensors and the motor and the pump and receives computerized with the time restriction set
-            through the user. After the procedure is finished the farmer may be notified.
+            <p id="paragraph">
+                <b><u>Introduction:</u></b><br>
+                &nbsp&nbsp&nbsp&nbspPrecision agriculture is being followed in few countries; the
+                agriculture enterprise in
+                India nonetheless
+                ought to technologies with the use of technology for higher manufacturing, distribution and charge
+                control.
+                During this assignment of precision agriculture farmers were given to be enrolled with via a Mobile App.
+                The
+                module will shop the info of the farmers, periodic soil houses of lands, insecticides required for the
+                real
+                crops, quantity of pesticide vital. Big information evaluation at the statistics is great crop sequences
+                evaluation, general manufacturing requirement of pesticide and consequently the herbicide for the crop.
+                Part
+                of the version is used for the quantity of pesticide spraying that is vital for the unique crop may be
+                finished this procedure is automation with the assist of a microcontroller and the information is
+                obtained
+                from all of the sensors and the motor and the pump and receives computerized with the time restriction
+                set
+                through the user. After the procedure is finished the farmer may be notified.<br>&nbsp&nbsp&nbsp&nbspPrecision
+                farming is
+                been utilized in agriculture from previous couple of years. It is a way to form the procedure of farming
+                more precise and accurate. The key components used for precision farming are automated hardware’s,
+                wireless sensors, robotics, etc.There is different type of agricultural drones which is used to improve
+                the productivity of crops.<br><br>
+                <b><u>Conclusion:</u></b><br>
+                &nbsp&nbsp&nbsp&nbspThis project is a multidisciplinary approach for smart agriculture using key technolo-gies: Internet of
+                Things, Sensors, Mobile Computing and Big-Data Analysis. Through real-time sampling of soil, the farmer
+                will be able to get current fertilizer requirements for the crop. This is an essen-tial requirement
+                towards the agriculture sector in India to get improved crop pro-duction with a reduction in the cost of
+                pes-
+
+
+                ticide requirements keeping the crop intact and away from the pests which affect the crop. As the data
+                is collected for crop details and soil conditions, this model provides Big-Data analysis for best crop
+                sequence, next crop to be cultivated for better production, pesticide requirements are analyzed. As all
+                the agriculture-related entities are connect-ed, this will also facilitate the farmer and reduce its
+                job. This model also facilitates the estimates of the total production of crop re-gion wise and state
+                wise, pesticide require-ments. This will be helpful to stay the value of agricultural products on top of
+                things . Through notifications, farmers will also be informed about current schemes for agricul-ture,
+                weather conditions, and next crop to be produced, access to mix the solution and spray on the crop when
+                it is necessary.
+
+            </p>
         {% endblock %}
     </div>
 </div>

@@ -1,4 +1,4 @@
-import sqlite3
+'''import sqlite3
 con=sqlite3.connect('db.sqlite3')
 work=()
 for i in con.execute('SELECT name FROM sqlite_master WHERE type="table";'):
@@ -6,4 +6,6 @@ for i in con.execute('SELECT name FROM sqlite_master WHERE type="table";'):
 for i in con.execute('select * from auth_user;'):print(i)
 #con.execute('delete from auth_user;')
 con.commit()
-for i in con.execute('select * from detail_crop;'):print(i)
+for i in con.execute('select * from detail_crop;'):print(i)'''
+import os
+os.system(f'python manage.py runserver 0.0.0.0:8000')

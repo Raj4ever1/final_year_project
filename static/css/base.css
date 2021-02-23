@@ -32,10 +32,15 @@ html,body{
     background-color: aqua;
 }
 .mainbody_body{
-    background-image: url('../images/body_bg_2.jpg');
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     text-align:center;
 
+}
+#paragraph{
+    max-width: 700px;
+    text-align: justify;
+    margin-left: 400px;
+    margin-top:50px
 }

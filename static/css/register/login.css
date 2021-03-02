@@ -4,9 +4,6 @@ label{
 .container{
     text-align: center;
 }
-.emaillabel{
-    padding-right: 2%;
-}
-.username, .password, .firstname, .lastname, .email{
+.username, .password{
     margin-bottom: 10px;
 }

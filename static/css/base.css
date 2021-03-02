@@ -1,5 +1,5 @@
 html,body{
-    height: 100%;
+    height: auto;
 }
 *{
     margin: 0%;
@@ -9,34 +9,33 @@ html,body{
     display: grid;
     grid-template-rows: auto auto;
 }
-.mainbody_header h2{
-    margin-top: 20px;
+.mainbody_header{
+    font-family:initial;
+}
+.mainbody_header h3{
     text-align: center;
-    margin-right: 200px;
+    color: greenyellow;
+    width: 30%;
 }
 .mainbody_header ul{
     position: inherit;
     float: right;
-    margin-top: 10px;
-    margin-right: 10px;
 }
 .mainbody_header ul li{
     display: inline-block;
-    padding: 10px;
-    border:solid black 2px;
+    padding: 7px;
 }
+
 .mainbody_header ul li a{
     text-decoration: none;
+    color: black;
+    font-size:15px;
+}
+.mainbody_header ul li:hover{
+    border-bottom:solid black 1px;
 }
 .mainbody_header{
-    background-color: aqua;
-}
-.mainbody_body{
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align:center;
-
+    background-color: white;
 }
 #paragraph{
     max-width: 700px;

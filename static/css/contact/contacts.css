@@ -1,20 +1,31 @@
-.Student{
+.Student {
     display: inline-block;
 }
-.mainbody_body{
+.personimg{
+    align-self: center;    
+}
+.mainbody_body {
     background-color: #447e9b;
 }
-.content_body{
+
+.content_body {
     display: grid;
     grid-template-columns: auto auto auto;
 }
-.content_body div{
+
+.content_body div {
     padding: 10px;
 }
-.content_body a{
+
+.content_body a {
     text-decoration: none;
-    color:black
+    color: black
 }
-.mainbody_body{
+
+.mainbody_body {
     background: #ffffff;
+}
+
+.feedbackform{
+    align-self: center;
 }

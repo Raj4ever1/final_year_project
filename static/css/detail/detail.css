@@ -1,6 +1,6 @@
 .content {
     display: grid;
-    grid-template-columns: auto 85%;
+    grid-template-columns: auto 87%;
     text-align: initial;
 }
 
@@ -28,6 +28,8 @@
 
 .content_left button i{
     padding-left: 100px;
+    padding-top: 5px;
+    float: right;
 }
 
 .content_left_crop button {

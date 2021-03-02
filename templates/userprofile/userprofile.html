@@ -1,10 +1,15 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block body_content %}
-    <div>
-        Username:<input name="username" value="{{ data.username }}" disabled><br>
-        First Name:<input name="first_name" value="{{ data.first_name }}" ><br>
-        Last Name:<input name="last_name" value="{{ data.last_name }}" ><br>
-        Email:<input name="email" value="{{ data.email }}" disabled><br><hr>
-    </div>
+<link rel="stylesheet" href="{% static 'css/userprofile/userprofile.css' %}?{% now "U" %}">
+<div class="userdetails">
+    <label for="username">Username</label><br>
+    <input name="username" value="{{ data.username }}" disabled class="uname"><br>
+    <label for="firstname">First Name</label><br>
+    <input name="first_name" value="{{ data.first_name }}" class="fname"><br>
+    <label for="lastname">Last Name</label><br>
+    <input name="last_name" value="{{ data.last_name }}" class="lname"><br>
+    <label for="email">Email</label><br>
+    <input name="email" value="{{ data.email }}" disabled class="email"><br>
+</div>
 {% endblock %}

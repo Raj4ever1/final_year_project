@@ -1,8 +1,7 @@
-
 var dropdown = document.getElementsByClassName("crop");
 var i;
 for (i = 0; i < dropdown.length; i++) {
-  dropdown[i].addEventListener("click", function() {
+  dropdown[i].addEventListener("click", function () {
     this.classList.toggle("active");
     var dropdownContent = this.nextElementSibling;
     if (dropdownContent.style.display === "block") {
@@ -12,20 +11,15 @@ for (i = 0; i < dropdown.length; i++) {
     }
   });
 }
-function myfunctionName(a){
-
-    alert(a);
-
-}
 function loadDoc(link) {
   var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
+  xhttp.onreadystatechange = function () {
 
-     document.getElementById("demo").innerHTML = this.responseText;
+    document.getElementById("demo").innerHTML = this.responseText;
     if (this.readyState == 4 && this.status == 200) {
-     document.getElementById("demo").innerHTML = this.responseText;
+      document.getElementById("demo").innerHTML =this.responseText;
     }
   };
-  xhttp.open("POST",link , true);
+  xhttp.open("GET", link, true);
   xhttp.send();
 }

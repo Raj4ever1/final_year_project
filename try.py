@@ -8,4 +8,4 @@ for i in con.execute('select * from auth_user;'):print(i)
 con.commit()
 for i in con.execute('select * from detail_crop;'):print(i)'''
 import os
-os.system(f'python manage.py runserver 0.0.0.0:8000')
+os.system(f'python manage.py runserver 127.0.0.1:8000')

@@ -1,3 +1,12 @@
-.container form{
-
+label{
+    padding-right: 10%;
+}
+.container{
+    text-align: center;
+}
+.emaillabel{
+    padding-right: 2%;
+}
+.username, .password, .firstname, .lastname, .email{
+    margin-bottom: 10px;
 }

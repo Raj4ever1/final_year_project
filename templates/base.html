@@ -1,76 +1,74 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>{% block title %}
         {% if user.is_authenticated %}
-            {{ user.first_name }}
+        {{ user.first_name }}
         {% else %}
-            Digital Farming
+        Digital Farming
         {% endif %}
-    {% endblock %}</title>
+        {% endblock %}</title>
     <link rel="stylesheet" href="{% static 'css/base.css' %}?{% now "U" %}">
     {% block link %}{% endblock %}
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 </head>
-<body>
-<div class="mainbody">
-    <div class="mainbody_header">
-        <h2>Digital Farming</h2><br>
-        <ul>
-            {% if user.is_authenticated %}
-                <li style="border: none">Welcome, {{ user.first_name }}</li>
-                <li><a href="{% url 'home' %}">Home</a></li>
-                <li><a href="{% url 'userprofile' %}">Profile</a></li>
-                <li><a href="{% url 'detail' %}">Details</a></li>
-                <li><a href="{% url 'contacts' %}">Contact</a></li>
-                <li><a href="{% url 'logout' %}">Logout</a></li>
-            {% else %}
-                <li><a href="{% url 'home' %}">Home</a></li>
-                <li><a href="{% url 'detail' %}">Details</a></li>
-                <li><a href="{% url 'login' %}">Login</a></li>
-                <li><a href="{% url 'signup' %}">Signup</a></li>
-            {% endif %}
-        </ul>
 
-    </div>
-    <div class="mainbody_body">
-        {% block body_content %}
+<body>
+    <div class="mainbody">
+        <div class="mainbody_header">
+            <center><h3>DIGITAL FARMING</h3></center>
+            <ul>
+                {% if user.is_authenticated %}
+                <li style="border: none; border-right: solid black 1px;">Welcome, {{ user.first_name }}</li>
+                <li><a href="{% url 'home' %}">HOME</a></li>
+                <li><a href="{% url 'userprofile' %}">PROFILE</a></li>
+                <li><a href="{% url 'detail' %}">DETAILS</a></li>
+                <li><a href="{% url 'contacts' %}">CONTACT</a></li>
+                <li><a href="{% url 'logout' %}">LOGOUT</a></li>
+                {% else %}
+                <li><a href="{% url 'home' %}">HOME</a></li>
+                <li><a href="{% url 'detail' %}">DETAILS</a></li>
+                <li><a href="{% url 'login' %}">LOGIN</a></li>
+                <li><a href="{% url 'signup' %}">SIGNUP</a></li>
+                {% endif %}
+            </ul>
+        </div>
+        <div class="mainbody_body card">
+            {% block body_content %}
             <p id="paragraph">
-                <b><u>Introduction:</u></b><br>
+                <b class="card-title"><u>Introduction:</u></b><br>
                 &nbsp&nbsp&nbsp&nbspPrecision agriculture is being followed in few countries; the
-                agriculture enterprise in
-                India nonetheless
-                ought to technologies with the use of technology for higher manufacturing, distribution and charge
-                control.
-                During this assignment of precision agriculture farmers were given to be enrolled with via a Mobile App.
-                The
-                module will shop the info of the farmers, periodic soil houses of lands, insecticides required for the
-                real
-                crops, quantity of pesticide vital. Big information evaluation at the statistics is great crop sequences
+                agriculture enterprise in India nonetheless ought to technologies with the use of technology for higher
+                manufacturing, distribution and charge
+                control. During this assignment of precision agriculture farmers were given to be enrolled with via a
+                Mobile App.
+                The module will shop the info of the farmers, periodic soil houses of lands, insecticides required for
+                the
+                real crops, quantity of pesticide vital. Big information evaluation at the statistics is great crop
+                sequences
                 evaluation, general manufacturing requirement of pesticide and consequently the herbicide for the crop.
-                Part
-                of the version is used for the quantity of pesticide spraying that is vital for the unique crop may be
+                Part of the version is used for the quantity of pesticide spraying that is vital for the unique crop may
+                be
                 finished this procedure is automation with the assist of a microcontroller and the information is
-                obtained
-                from all of the sensors and the motor and the pump and receives computerized with the time restriction
-                set
-                through the user. After the procedure is finished the farmer may be notified.<br>&nbsp&nbsp&nbsp&nbspPrecision
-                farming is
+                obtained from all of the sensors and the motor and the pump and receives computerized with the time
+                restriction
+                set through the user. After the procedure is finished the farmer may be notified. Precision farming is
                 been utilized in agriculture from previous couple of years. It is a way to form the procedure of farming
                 more precise and accurate. The key components used for precision farming are automated hardware’s,
-                wireless sensors, robotics, etc.There is different type of agricultural drones which is used to improve
+                wireless sensors, robotics, etc. There is different type of agricultural drones which is used to improve
                 the productivity of crops.<br><br>
-                <b><u>Conclusion:</u></b><br>
-                &nbsp&nbsp&nbsp&nbspThis project is a multidisciplinary approach for smart agriculture using key technolo-gies: Internet of
-                Things, Sensors, Mobile Computing and Big-Data Analysis. Through real-time sampling of soil, the farmer
+                <b class="card-title"><u>Conclusion:</u></b><br>
+                &nbsp&nbsp&nbsp&nbspThis project is a multidisciplinary approach for smart agriculture using key
+                technolo-gies: Internet of Things, Sensors, Mobile Computing and Big-Data Analysis. Through real-time
+                sampling of soil, the farmer
                 will be able to get current fertilizer requirements for the crop. This is an essen-tial requirement
                 towards the agriculture sector in India to get improved crop pro-duction with a reduction in the cost of
-                pes-
-
-
-                ticide requirements keeping the crop intact and away from the pests which affect the crop. As the data
+                pesticide requirements keeping the crop intact and away from the pests which affect the crop. As the
+                data
                 is collected for crop details and soil conditions, this model provides Big-Data analysis for best crop
                 sequence, next crop to be cultivated for better production, pesticide requirements are analyzed. As all
                 the agriculture-related entities are connect-ed, this will also facilitate the farmer and reduce its
@@ -81,9 +79,13 @@
                 it is necessary.
 
             </p>
-        {% endblock %}
+            {% endblock %}
+        </div>
     </div>
-</div>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>

@@ -1,0 +1,9 @@
+label{
+    padding-right: 10%;
+}
+.container{
+    text-align: center;
+}
+.uname, .fname, .lname, .email{
+    margin-bottom: 10px;
+}

@@ -9,9 +9,12 @@ html,body{
     display: grid;
     grid-template-rows: auto auto;
 }
+.mainbody_header{
+    font-family:initial;
+}
 .mainbody_header h3{
     text-align: center;
-    color: green;
+    color: greenyellow;
     width: 30%;
 }
 .mainbody_header ul{
@@ -32,7 +35,7 @@ html,body{
     border-bottom:solid black 1px;
 }
 .mainbody_header{
-    background-color: lightgreen;
+    background-color: white;
 }
 #paragraph{
     max-width: 700px;

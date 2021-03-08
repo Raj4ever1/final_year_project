@@ -3,7 +3,7 @@ for (var i = 0; i < dropdown.length; i++) {
   dropdown[i].addEventListener("click", function () {
     this.classList.toggle("active");
     var dropdownContent = this.nextElementSibling;
-    if (dropdownContent.style.display === "block") {
+    if (dropdownContent.classList === "active") {
       dropdownContent.style.display = "none";
     } else {
       dropdownContent.style.display = "block";

@@ -5,9 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef026364-da36-4580-9210-f93dbb8d24f0" name="Default Changelist" comment="Added images to the detail of the crops.">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-    </list>
+    <list default="true" id="ef026364-da36-4580-9210-f93dbb8d24f0" name="Default Changelist" comment="Added images to the detail of the crops." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,10 +17,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -68,16 +66,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/Anime" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rjraj\Desktop\final_year_project-master\detail" />
       <recent name="C:\Users\rjraj\PycharmProjects\final_year_project\final_year_project" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.try">
+  <component name="RunManager" selected="Python.user">
     <configuration name="try (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="final_year_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -122,6 +121,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="user" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="final_year_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/detail/templatetags" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detail/templatetags/user.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="final_year_project" type="Python.DjangoServer" factoryName="Django server">
       <module name="final_year_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,6 +169,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.try" />
+        <item itemvalue="Python.user" />
         <item itemvalue="Python.try (1)" />
       </list>
     </recent_temporary>
@@ -190,6 +212,13 @@
       <workItem from="1613397914033" duration="692000" />
       <workItem from="1613404821149" duration="2724000" />
       <workItem from="1613479476050" duration="4042000" />
+      <workItem from="1614701410885" duration="341000" />
+      <workItem from="1614767639603" duration="1735000" />
+      <workItem from="1614849270781" duration="904000" />
+      <workItem from="1614861688847" duration="29000" />
+      <workItem from="1614936844673" duration="4695000" />
+      <workItem from="1614945160458" duration="4047000" />
+      <workItem from="1614952337023" duration="11860000" />
     </task>
     <task id="LOCAL-00001" summary="done">
       <created>1608444866586</created>
@@ -279,10 +308,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="542" y="219" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1608872291772" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1613394369734">
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1614947321141">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1613394369734" />
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1614947321141" />
     <state x="628" y="315" key="Github.ShareDialog" timestamp="1608444161598">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -291,22 +320,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="555" y="122" key="Github.UntrackedFilesDialog/0.0.1536.834@0.0.1536.834" timestamp="1608444203494" />
-    <state width="1493" height="247" key="GridCell.Tab.0.bottom" timestamp="1613123387776">
+    <state width="1493" height="228" key="GridCell.Tab.0.bottom" timestamp="1614964311191">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="247" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1613123387776" />
-    <state width="1493" height="247" key="GridCell.Tab.0.center" timestamp="1613123387776">
+    <state width="1493" height="228" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1614964311191" />
+    <state width="1493" height="228" key="GridCell.Tab.0.center" timestamp="1614964311191">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="247" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1613123387776" />
-    <state width="1493" height="247" key="GridCell.Tab.0.left" timestamp="1613123387776">
+    <state width="1493" height="228" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1614964311191" />
+    <state width="1493" height="228" key="GridCell.Tab.0.left" timestamp="1614964311190">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="247" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1613123387776" />
-    <state width="1493" height="247" key="GridCell.Tab.0.right" timestamp="1613123387776">
+    <state width="1493" height="228" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1614964311190" />
+    <state width="1493" height="228" key="GridCell.Tab.0.right" timestamp="1614964311191">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="247" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1613123387776" />
+    <state width="1493" height="228" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1614964311191" />
     <state x="277" y="62" key="SettingsEditor" timestamp="1608871518510">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -323,6 +352,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="555" y="318" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.834@0.0.1536.834" timestamp="1608446009369" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1614960085045">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1614960085045" />
     <state x="550" y="103" key="svn.repositoryBrowser" timestamp="1608444039524">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -330,6 +363,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/final_year_project$try.coverage" NAME="try Coverage Results" MODIFIED="1613120910016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/final_year_project_master$try.coverage" NAME="try Coverage Results" MODIFIED="1614963724254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/final_year_project$try__1_.coverage" NAME="try (1) Coverage Results" MODIFIED="1608442705442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/final_year_project" />
+    <SUITE FILE_PATH="coverage/final_year_project_master$user.coverage" NAME="user Coverage Results" MODIFIED="1614963045454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/detail/templatetags" />
   </component>
 </project>

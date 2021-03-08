@@ -11,14 +11,13 @@ for (i = 0; i < dropdown.length; i++) {
     }
   });
 }
-
 function loadDoc(link) {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function () {
 
     document.getElementById("demo").innerHTML = this.responseText;
     if (this.readyState == 4 && this.status == 200) {
-      document.getElementById("demo").innerHTML = this.responseText;
+      document.getElementById("demo").innerHTML =this.responseText;
     }
   };
   xhttp.open("GET", link, true);

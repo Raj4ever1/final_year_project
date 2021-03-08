@@ -1,5 +1,4 @@
 from django.shortcuts import render,HttpResponse
-import json
 from django.forms.models import model_to_dict
 from .models import crop,land
 from django.contrib.sites.shortcuts import get_current_site

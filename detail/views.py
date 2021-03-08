@@ -17,15 +17,18 @@ def land_detail(request,offset):
      a=land.objects.get(pk=offset)
      a=model_to_dict(a)
      a['img']='http://'+get_current_site(request).domain+ a['img'].url
-     string = '<div id="content_right_crop"><label>Name: </label> ' + a['name'].title()
-     string += '<br><img src="' + a['img'] + '" width=300 height=300>'
+     string = '<div id="content_right_crop">'
+     string += '<img src="' + a['img'] + '" width=300 height=300>'
+     string +='<br><label>Name: </label> ' + a['name'].title()
      string += '</div>';
      return HttpResponse(string)
 def crop_detail(request,offset):
      a=crop.objects.get(pk=offset)
      a=model_to_dict(a)
      a['img']='http://'+get_current_site(request).domain+ a['img'].url
-     string = '<div id="content_right_crop"><label>Name: </label> ' + a['name'].title()
+     string = '<div class="content_right_crop"> <div class="cropImg">'
+     string +='<img src="' + a['img'] + '" width=300 height=300> </div>'
+     string += '<div class="cropInfo"><br><label>Name: </label> ' + a['name'].title()
      string += '<br><label>Climatic Condition: </label> ' + a['climatic_condition'].title()
      string += '<br><label>Water Quantity: </label> ' + a['water_quantity'].replace('-', ' to ') + ' mm'
      string += '<br><label>Moisture: </label> ' + a['moisture']
@@ -34,6 +37,5 @@ def crop_detail(request,offset):
      string += '<br><label>Min temp: </label> ' + str(a['min_temp']) + '&#8451'
      string += '<br><label>Max temp: </label> ' + str(a['max_temp']) + '&#8451'
      string += '<br><label>Description: </label> ' + a['description']
-     string += '<br><img src="' + a['img'] + '" width=300 height=300>'
-     string += '</div>';
+     string += '</div></div>'
      return HttpResponse(string)

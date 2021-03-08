@@ -35,3 +35,9 @@
 .content_left_crop button {
     width: auto;
 }
+.content_right_crop{
+    display: inline-flex;
+}
+.cropInfo, .cropImg{
+    padding: 15px;
+}

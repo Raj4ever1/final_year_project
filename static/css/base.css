@@ -9,9 +9,6 @@ html,body{
     display: grid;
     grid-template-rows: auto auto;
 }
-.mainbody_header{
-    font-family:initial;
-}
 .mainbody_header h3{
     text-align: center;
     color: green;

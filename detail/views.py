@@ -13,6 +13,8 @@ def detail(request):
                details[str(i.name)].append(j)
           print(details[i.name])
      return render(request, 'detail/detail.html',locals())
+def about(request):return render(request, 'detail/about.html')
+def blog(request):return render(request, 'detail/blog.html')
 def land_detail(request,offset):
      a=land.objects.get(pk=offset)
      a=model_to_dict(a)

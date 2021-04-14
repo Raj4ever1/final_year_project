@@ -1,11 +1,16 @@
 {% load static %}
-<!DOCTYPE html>
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
 <html>
 <head>
-<title>The Former Flat Responsive Agriculture bootstrap Website Template | Contact :: w3layouts</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="keywords" content="Bootstrap Responsive Templates, Iphone Compatible Templates, Smartphone Compatible Templates, Ipad Compatible Templates, Flat Responsive Templates"/>
+<title>Digital Farming</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">	
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<meta name="keywords" content="Bootstrap Responsive Templates, Iphone Compatible Templates, Smartphone Compatible Templates, Ipad Compatible Templates, Flat Responsive Templates"/>
 <script src="{% static 'js/jquery-1.11.0.min.js' %}"></script>
 <link href="{% static 'css/bootstrap.css' %}" rel='stylesheet' type='text/css' />
 <link href="{% static 'css/style.css' %}" rel='stylesheet' type='text/css' />
@@ -17,15 +22,15 @@
 					<div class="top-header">
 						<div class="container">
 							<div class="logo">
-								<a href="{% url 'home' %}"><img src="{% static 'images/logo.png' %}" alt=""></a>
+								<a href="index.html"><img src="{% static 'images/logo.png' %}" alt=""></a>
 							</div>
 							<!--start-top-nav-->
-							 <nav class="top-nav">
+							 <div class="top-nav">
 								<ul>
 									<li class="active"><a class="play-icon popup-with-zoom-anim" href="#small-dialog"><span> </span>Log in</a></li>
 									<li><a class="play-icon popup-with-zoom-anim" href="#small-dialog1">Sign up</a></li>
 								</ul>
-							</nav>
+							</div>
 							<div class="clearfix"> </div>
 						</div>
 				</div>
@@ -53,7 +58,7 @@
 							<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}"/>
 							<input type="submit"  value="SignUp"/>
 						</div>
-					</div>
+					</div>	
 				 <script>
 						$(document).ready(function() {
 						$('.popup-with-zoom-anim').magnificPopup({
@@ -67,25 +72,25 @@
 							removalDelay: 300,
 							mainClass: 'my-mfp-zoom-in'
 						});
-
+																						
 						});
-				</script>
+				</script>					
 		<!--End-header-->
 		<div class="navgation">
 					<div class="menu">
                          <a class="toggleMenu" href="#"><img src="{% static 'images/menu-icon.png' %}" alt="" /> </a>
 							<ul class="nav" id="nav">
 							<li><a href="{% url 'home' %}">Home</a></li>
-							<li><a href="{% url 'about' %}">About Us</a></li>
-							<li><a href="{% url 'blog' %}">Profile</a></li>
-							<li><a href="{% url 'blog' %}">Blog</a></li>
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="404.html">Services</a></li>
+							<li><a href="blog.html">Blog</a></li>
 							<li><a href="{% url 'contacts' %}">Contact</a></li>
 							</ul>
                             <!----start-top-nav-script---->
 		                     <script type="text/javascript" src="{% static 'js/responsive-nav.js' %}"></script>
 							<script type="text/javascript">
 							jQuery(document).ready(function($) {
-								$(".scroll").click(function(event){
+								$(".scroll").click(function(event){		
 									event.preventDefault();
 									$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 								});
@@ -102,7 +107,6 @@
 					<div class="clearfix"> </div>
 		</div>
 		</div>
-            {% block contentxyz %}
 		<div class="banner">
 			<div class="container">
 				<div class="bnr-text">
@@ -126,7 +130,7 @@
 							<h4>variations of passages</h4>
 							<p> which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
 							<div class="view">
-								<a href="{% url 'blog' %}">VIEW</a>
+								<a href="blog.html">VIEW</a>
 							</div>
 							</div>
 					</div>
@@ -235,16 +239,15 @@
 			</div>
 		</div>
 		<div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.1253884940197!2d77.5894383146351!3d12.899657919943449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae158c96ad23f3%3A0x213d8fca971418e7!2sZolo%20Icarus!5e0!3m2!1sen!2sin!4v1618414369306!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2951.954856719987!2d-83.74137900000001!3d42.279486999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883cae3f7c142593%3A0x249796361efa6489!2sAmerican+Apparel!5e0!3m2!1sen!2sin!4v1418905123643"frameborder="0" style="border:0"></iframe>
 		</div>
-            {% endblock %}
-            <div class="footer">
+		 <div class="footer">
                          <div class="container">
                                     <div class="footer-text">
-										<p>DESIGN BY <a href="#"> Ronak Jain</a></p>
+										<p>DESIGN BY <a href="http://w3layouts.com/"> W3LAYOUTS</a></p>
 									</div>
                          </div>
 					<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-         </div>
+     </div>
 </body>
 </html>

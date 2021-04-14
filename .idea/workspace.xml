@@ -5,7 +5,61 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef026364-da36-4580-9210-f93dbb8d24f0" name="Default Changelist" comment="Added images to the detail of the crops." />
+    <list default="true" id="ef026364-da36-4580-9210-f93dbb8d24f0" name="Default Changelist" comment="Added images to the detail of the crops.">
+      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/popup-box.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/ape-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/ape.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/apple.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/bnr.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/boy-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/boy-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/boy-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/choose-sprit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/fd-btm1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/fd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/gp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/grape.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/icon-sprit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/key.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/menu-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/millet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/mkr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/one-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/sprit-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/status-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/tree-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/tree-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/veg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/vt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jquery-1.11.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jquery.magnific-popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modernizr.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/myscript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/responsive-nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/contact/contact1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/detail/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/detail/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/detail/detail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/contact/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detail/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/detail/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detail/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/detail/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/contact/contacts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/detail/detail.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/register/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/register/signup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/userprofile/userprofile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/body_bg_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/detail/detail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +120,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/Anime" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/detail" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -75,8 +129,14 @@
       <recent name="C:\Users\rjraj\Desktop\final_year_project-master\detail" />
       <recent name="C:\Users\rjraj\PycharmProjects\final_year_project\final_year_project" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rjraj\PycharmProjects\final_year_project\templates\detail" />
+      <recent name="C:\Users\rjraj\PycharmProjects\final_year_project\templates\contact" />
+      <recent name="C:\Users\rjraj\PycharmProjects\final_year_project\static" />
+      <recent name="C:\Users\rjraj\PycharmProjects\final_year_project\templates" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.user">
+  <component name="RunManager" selected="Python.try">
     <configuration name="try (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="final_year_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,6 +279,11 @@
       <workItem from="1614936844673" duration="4695000" />
       <workItem from="1614945160458" duration="4047000" />
       <workItem from="1614952337023" duration="11860000" />
+      <workItem from="1618160442717" duration="1807000" />
+      <workItem from="1618162555955" duration="230000" />
+      <workItem from="1618241189382" duration="291000" />
+      <workItem from="1618412486306" duration="3741000" />
+      <workItem from="1618417506675" duration="612000" />
     </task>
     <task id="LOCAL-00001" summary="done">
       <created>1608444866586</created>
@@ -304,65 +369,37 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1613217813210" />
-    <state x="542" y="219" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608872291772">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="542" y="219" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1608872291772" />
     <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1614947321141">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1614947321141" />
-    <state x="628" y="315" key="Github.ShareDialog" timestamp="1608444161598">
+    <state width="1493" height="226" key="GridCell.Tab.0.bottom" timestamp="1618416266097">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="628" y="315" key="Github.ShareDialog/0.0.1536.834@0.0.1536.834" timestamp="1608444161598" />
-    <state x="555" y="122" key="Github.UntrackedFilesDialog" timestamp="1608444203494">
+    <state width="1493" height="226" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1618416266097" />
+    <state width="1493" height="226" key="GridCell.Tab.0.center" timestamp="1618416266097">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="555" y="122" key="Github.UntrackedFilesDialog/0.0.1536.834@0.0.1536.834" timestamp="1608444203494" />
-    <state width="1493" height="228" key="GridCell.Tab.0.bottom" timestamp="1614964311191">
+    <state width="1493" height="226" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1618416266097" />
+    <state width="1493" height="226" key="GridCell.Tab.0.left" timestamp="1618416266097">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="228" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1614964311191" />
-    <state width="1493" height="228" key="GridCell.Tab.0.center" timestamp="1614964311191">
+    <state width="1493" height="226" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1618416266097" />
+    <state width="1493" height="226" key="GridCell.Tab.0.right" timestamp="1618416266097">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="228" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1614964311191" />
-    <state width="1493" height="228" key="GridCell.Tab.0.left" timestamp="1614964311190">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="228" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1614964311190" />
-    <state width="1493" height="228" key="GridCell.Tab.0.right" timestamp="1614964311191">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="228" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1614964311191" />
-    <state x="277" y="62" key="SettingsEditor" timestamp="1608871518510">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1608871518510" />
+    <state width="1493" height="226" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1618416266097" />
     <state x="361" y="137" key="Vcs.Push.Dialog.v2" timestamp="1613483095699">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="137" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1613483095699" />
-    <state x="548" y="222" key="git4idea.history.wholeTree.VcsStructureChooser" timestamp="1608445461089">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="548" y="222" key="git4idea.history.wholeTree.VcsStructureChooser/0.0.1536.834@0.0.1536.834" timestamp="1608445461089" />
-    <state x="555" y="318" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1608446009369">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="555" y="318" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.834@0.0.1536.834" timestamp="1608446009369" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1614960085045">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1614960085045" />
-    <state x="550" y="103" key="svn.repositoryBrowser" timestamp="1608444039524">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="550" y="103" key="svn.repositoryBrowser/0.0.1536.834@0.0.1536.834" timestamp="1608444039524" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/final_year_project$try.coverage" NAME="try Coverage Results" MODIFIED="1613120910016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/final_year_project$try.coverage" NAME="try Coverage Results" MODIFIED="1618417525672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/final_year_project_master$try.coverage" NAME="try Coverage Results" MODIFIED="1614963724254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/final_year_project$try__1_.coverage" NAME="try (1) Coverage Results" MODIFIED="1608442705442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/final_year_project" />
     <SUITE FILE_PATH="coverage/final_year_project_master$user.coverage" NAME="user Coverage Results" MODIFIED="1614963045454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/detail/templatetags" />

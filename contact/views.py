@@ -6,7 +6,7 @@ from django.core.mail import EmailMessage
 # Create your views here.
 def contacts(request):
      con=contact.objects.all()
-     return render(request,'contact/contact.html',locals())
+     return render(request,'contact/contact1.html',locals())
 
 
 def contact_detail(request,offset):
